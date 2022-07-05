@@ -1,0 +1,118 @@
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+::-webkit-input-placeholder {
+  color: #c6c9d0;
+}
+:-moz-placeholder {
+  color: #c6c9d0;
+}
+::-moz-placeholder {
+  color: #c6c9d0;
+}
+:-ms-input-placeholder {
+  color: #c6c9d0;
+}
+html,
+body {
+  background: #e6e7ea;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  /* height: 500px; */
+}
+.post{
+  /* height: 1rem; */
+}
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.container > h2 {
+  color: #9298a4;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin: 140px auto 80px;
+
+  text-align: center;
+}
+.container > h2:first-child {
+  margin: 40px auto 80px;
+}
+.container > .box {
+  background: #242526;
+  border-radius: 10px;
+  /* box-shadow: 0 0 50px 5px rgba(0,0,0,.25); */
+  height: auto;
+  margin: 30px auto 40px;
+  max-width: 500px;
+  overflow: hidden;
+  padding: 20px 0 0;
+  position: relative;
+}
+.container > .box > [class*="box-"] {
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+}
+
+
+.container > .box >  h3 {
+  font-size: 15px;
+  font-weight: 700;
+  height: 60px;
+  margin: 5px auto;
+  overflow: hidden;
+  padding: 5px 0 0;
+  position: relative;
+}
+
+
+
+.container > .box > .box-content {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: initial;
+}
+
+.container > .box.update > .box-content > .content > p,
+.container > .box.text > .box-content > .content > h3 {
+  color: #e4e3e5;
+  /* font-size: 14px; */
+  line-height: 22px;
+  padding: 26px 30px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+.container > .box.update > .box-content > .content > p,
+.container > .box.text > .box-content > .content > h5 {
+  color: #a2a79c;
+  /* font-size: 14px; */
+  line-height: 22px;
+  padding: 26px 30px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
